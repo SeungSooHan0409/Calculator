@@ -9,9 +9,6 @@ public class Calculator_1 {
 
         int trigger = 0; // 트리거가 1 이되면 계산이 종료됩니다.
         for(; trigger == 0;){
-            // 숫자 아니면 에러터지는데 이걸 반복문으로 구현할 방법을 검색해보니
-            // exception 쓰면 된다는데 이거 3주차 과정에 있음.
-            // 나중에 이거빼고 2단계 구현 완료되며 해볼예정.
             System.out.print("첫번째 양의 정수 : ");
             int firstNumber = scanner.nextInt();
             System.out.println("첫번째 수 : " + firstNumber);
