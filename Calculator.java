@@ -17,6 +17,7 @@ public class Calculator {// 속성
     String resultValue = "";
     int trigger = 0; // 트리거가 1 이되면 계산이 종료됩니다.
     void calculation() {
+        // for 문 while 문으로 변경
         while (trigger == 0) {
 
             System.out.print("첫번째 양의 정수 : ");
